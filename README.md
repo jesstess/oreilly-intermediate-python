@@ -6,3 +6,4 @@ All links referenced in the video series:
 * [Unit 2, Video 1: Wordplay files](./Unit2/video1.mkd)
 * [Unit 3, Video 1: Reviewing lists and dictionaries](./Unit3/video1.mkd)
 * [Unit 3, Video 2: Sonnets](./Unit3/video2.mkd)
+* [Unit 4, Video 1: Jeopardy](./Unit4/video1.mkd)
