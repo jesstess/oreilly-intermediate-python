@@ -7,3 +7,4 @@ All links referenced in the video series:
 * [Unit 3, Video 1: Reviewing lists and dictionaries](./Unit3/video1.mkd)
 * [Unit 3, Video 2: Sonnets](./Unit3/video2.mkd)
 * [Unit 4, Video 1: Jeopardy](./Unit4/video1.mkd)
+* [Unit 5, Video 1: Plotting](./Unit5/video1.mkd)
