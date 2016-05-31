@@ -1,0 +1,4 @@
+# Review sheets for lists and dictionaries
+
+* [Lists](./lists.mkd)
+* [Dictionaries](./dictionaries.mkd)

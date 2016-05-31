@@ -1,0 +1,67 @@
+# Dictionaries review
+
+* Use dictionaries to store key/value pairs.
+* Dictionaries do not guarantee ordering.
+* A given key can only have one value, but multiple keys can have the same value.
+
+## Initialization
+
+<pre>
+>>> my_dict = {}
+>>> my_dict
+{}
+>>> your_dict = {"Alice" : "chocolate", "Bob" : "strawberry", "Cara" : "mint chip"}
+>>> your_dict
+{'Bob': 'strawberry', 'Cara': 'mint chip', 'Alice': 'chocolate'}
+</pre>
+
+## Adding elements to a dictionary
+
+<pre>
+>>> your_dict["Dora"] = "vanilla"
+>>> your_dict
+{'Bob': 'strawberry', 'Cara': 'mint chip', 'Dora': 'vanilla', 'Alice': 'chocolate'}
+</pre>
+
+## Accessing elements of a dictionary
+
+<pre>
+>>> your_dict["Alice"]
+'chocolate'
+>>> your_dict.get("Alice")
+'chocolate'
+</pre>
+
+<pre>
+>>> your_dict["Eve"]
+Traceback (most recent call last):
+  File "&lt;stdin&gt;", line 1, in &lt;module&gt;
+KeyError: 'Eve'
+>>> "Eve" in her_dict
+False
+>>> "Alice" in her_dict
+True
+>>> your_dict.get("Eve")
+>>> person = your_dict.get("Eve")
+>>> print person
+None
+>>> print type(person)
+&lt;type 'NoneType'&gt;
+>>> your_dict.get("Alice")
+'coconut'
+</pre>
+
+## Changing elements of a dictionary
+
+<pre>
+>>> your_dict["Alice"] = "coconut"
+>>> your_dict
+{'Bob': 'strawberry', 'Cara': 'mint chip', 'Dora': 'vanilla', 'Alice': 'coconut'}
+</pre>
+
+## Types
+
+<pre>
+>>> type(my_dict)
+&lt;type 'dict'&gt;
+</pre>
