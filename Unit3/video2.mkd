@@ -1,0 +1,10 @@
+# Files for Unit 2
+
+Please download these files to a `sonnets` directory. We'll use them
+throughout Unit 2.
+
+* [sonnets.txt](./sonnets.txt)
+* [sonnet_words.txt](./sonnet_words.txt)
+* [sowpods.txt](./sowpods.txt)
+* [sonnets.py](./sonnets.py)
+* [extract_sonnet_words.py](./extract_sonnet_words.py)
