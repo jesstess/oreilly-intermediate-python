@@ -1,0 +1,89 @@
+# Linux command line navigation review
+
+The filesystem on your computer is like a tree made up of folders (also called "directories") and files. The filesystem has a root directory called <tt>/</tt>, and everything on your computer lives in subdirectories of this root directory.
+
+We often navigate the filesystem graphically by clicking on graphical folders. We can do the exact same navigation from the command line.
+
+There are three commands that we'll be using at a command prompt to navigate the filesystem on your computer:
+* <code>ls</code>
+* <code>pwd</code>
+* <code>cd</code>
+
+<code>ls</code> lists the contents of a directory.<br />
+<code>pwd</code> gives the full directory path to your current directory.<br />
+<code>cd</code> moves you into a new directory (it stands for "change directory").
+
+Let's practice using these commands.
+
+## Open a command prompt
+
+You can find the Terminal application at Applications/Accessories/Terminal, or it may already be on your menu bar.
+
+## Practice using <code>ls</code>, <code>pwd</code>, and <code>cd</code>
+
+(that's an l the letter, not the number 1)
+
+Type each of these commands and hit enter:
+
+<pre>ls</pre>
+This lists all the files in your current directory.
+
+<br />
+
+<pre>pwd</pre>
+This displays the full directory path to your current directory.
+
+<br />
+
+<pre>cd /</pre>
+This will change you into the <code>/</code> root directory.
+
+<br />
+
+<pre>ls</pre>
+This lists the contents of the <code>/</code> root directory.
+
+<br />
+
+<pre>cd home</pre>
+This will change you into the <code>home</code> subdirectory of the <code>/</code> root directory. 
+
+<br />
+
+<pre>ls</pre>
+You should see a list of all the files in <code>/home</code>, including the directory for your username. The directory for your username (e.g. <tt>/home/jessica</tt>) is often called your "home directory".
+
+<br />
+
+<pre>pwd</pre>
+This displays the full directory path to your current directory, <code>/home</code>.
+
+<br />
+
+<pre>cd ..</pre>
+<code>..</code> means "parent directory", so this command moved you up to the parent directory. You were in <code>/home</code>, so now you are in <code>/</code>, the root directory.
+
+<br />
+
+<pre>ls</pre>
+This lists the contents of the root directory, confirming where you are.
+
+## Tips
+
+* You can use Tab to auto-complete directory and file names. So from inside the root directory <tt>/</tt>, if you type <code>cd ho</code> and hit Tab, the command prompt will auto-complete the directory name, and you can then hit enter to change into the <code>/home</code> directory.
+* The command prompt maintains a command history. You can use the up arrow to cycle through old commands.
+
+## Check your understanding
+
+Answer these questions. Experiment at the command line if you need to! If you aren't sure about an answer, ask a helper.
+
+* What directory are you in after starting a new command line prompt?
+* After starting a new command line prompt, how would you get to the root directory?
+* How do you check what files and directories are in your current working directory?
+* If you are in directory <tt>/home</tt>, and you want to get to <tt>/home/jesstess/projects</tt>, how would you do that?
+* What are 2 ways to avoid typing out a full navigation command? (hint: one requires that you've run the command before)
+* What is the difference between a command prompt and a Python prompt?
+
+## Success!
+
+You've practiced using <code>ls</code>, <code>pwd</code>, and <code>cd</code> to navigate your computer's filesystem from the command prompt.

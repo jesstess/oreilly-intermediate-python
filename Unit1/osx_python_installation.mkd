@@ -1,0 +1,53 @@
+# Installing Python on OSX
+
+This page walks through how to install a version of Python on OSX that is compatible with this tutorial.
+
+Any version of Python 3 will work for this tutorial. If you don't have Python installed, we'll install Python version 3.4.1.
+
+If you already have Python installed, check the Python version: if the version number starts with a 3 (as opposed to a 2), you can use it for this class and can skip to <a href="#check">checking your Python installation</a>.
+
+## Download and install Python
+
+* <b>If you are running OS X version 10.6 or later</b>, click https://www.python.org/ftp/python/3.4.1/python-3.4.1-macosx10.6.dmg to download the Python installer.
+* <b>If you are running OS X version 10.5</b>, click and download the Python installer from https://www.python.org/ftp/python/3.4.1/python-3.4.1-macosx10.5.dmg instead.
+* <b>If you have a version of OS X older than 10.5</b>, please upgrade to a newer version of OS X before installing Python.
+
+Once the download is complete, double-click on the installer to run it and complete the installation.
+
+## <a name="check">Checking your Python installation</a>
+
+<ol>
+<li>Start up a Terminal. You can find the Terminal application through Spotlight, or navigate to <code>Applications/Utilities/Terminal</code>.<br />
+
+<br />
+This terminal is another way of navigating your computer and running programs -- just textually instead of graphically. We are going to be running Python and Python scripts from this Terminal prompt.
+</li>
+<li>Test your Python install at the command prompt. Type
+
+<pre>
+python3
+</pre>
+
+and press Enter. You should see something like
+<pre>
+Python 3.4.1 (v3.4.1:d047928ae3f6, May 13 2013, 12:45:22) 
+[GCC 4.2.1 (Apple Inc. build 5646)] on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>>
+</pre>
+
+You just started Python! The <code>>>></code> indicates that you are at a new type of prompt -- a Python prompt. The command prompt let's you navigate your computer and run programs, and the Python prompt lets you write and run Python code interactively.<br />
+
+</li>
+<li>To exit the Python prompt, type
+
+<pre>
+exit()
+</pre>
+
+and press Enter. This will take you back to the OS X terminal prompt.</li>
+</ol>
+
+## Success!
+
+You have Python installed and tested.

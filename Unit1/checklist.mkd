@@ -1,0 +1,31 @@
+# Unit 1, Video 2: Environment setup checklist
+
+This video series assumes that you:
+
+* Have Python 3 installed
+* Have a text editor installed
+* Are comfortable with basic command line navigation
+* Are comfortable writing and running Python scripts
+* Have completed O'Reilly's Introduction to Python video series or
+  equivalent material. This includes comfort with basic data
+  structure, flow control, modules, and reading and writing files.
+
+Please take a moment to	   check your Python 3 installation and review the background material.
+
+## Python installation
+
+* [Windows](./windows_python_installation.mkd)
+* [OSX](./osx_python_installation.mkd)
+* [Linux](./linux_python_installation.mkd)
+
+## Text editor installation
+
+* [Windows](./windows_text_editor.mkd)
+* [OSX](./osx_text_editor.mkd)
+* [Linux](./linux_text_editor.mkd)
+
+## Command line navigation review
+
+* [Windows](./windows_terminal_navigation.mkd)
+* [OSX](./osx_terminal_navigation.mkd)
+* [Linux](./linux_terminal_navigation.mkd)

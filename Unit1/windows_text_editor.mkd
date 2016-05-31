@@ -1,0 +1,26 @@
+# Installing a text editor on Windows
+
+On Windows, a good free text editor is Notepad++. Note that this is unrelated to the Windows default program called Notepad!
+
+To install Notepad++:
+
+* Click and download http://download.tuxfamily.org/notepadplus/archive/6.3.3/npp.6.3.3.Installer.exe
+* Run the installer, and follow the process to the end.
+
+To run it:
+
+* In Windows Vista or Windows 7, click on the Start menu, type ''Notepad++'' in the Search Field, and hit enter. 
+* In Windows XP, click on the Start menu, navigate to All Programs, and then navigate to Notepad++.
+
+## Configure Notepad++ to indent with spaces
+
+* Click Settings -> Preferences
+* Find the tab labeled "Language Menu/Tab Settings"
+* Find the box labeled "Replace by space", and make sure it is '''checked'''
+* Click Close.
+
+That's it! Now, you can press Tab to indent your code, and that indentation will actually be made of spaces. We do this because Python doesn't like it when we mix tabs and spaces.
+
+## Success!
+
+Now you have an editor that you can use to open any text file, including Python programs.

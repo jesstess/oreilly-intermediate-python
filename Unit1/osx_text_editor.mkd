@@ -1,0 +1,26 @@
+# Installing a text editor on OSX
+
+On OSX, a good free text editor is Smultron.
+
+To download and install Smultron:
+
+* Click and download http://sourceforge.net/projects/smultron/
+* Open the downloaded file from your Downloads directory or the Download bar in your web browser
+* Drag the icon (it looks like a top-down view of a tomato) to your Dock for easy access
+
+To run Smultron:
+
+* Double-click the Smultron icon from your Dock.
+
+## Configure Smultron to indent with spaces
+
+* Start up Smultron, and click Smultron -> Preferences. This will pop up a preferences window.
+* Click on the Advanced tab, and then on the Really Advanced tab within that tab.
+* Check the "Indent with spaces, not tabs" checkbox
+* Close the Preferences window.
+
+That's it! Now, you can press Tab to indent your code, and that indentation will actually be made of spaces. We do this because Python doesn't like it when we mix tabs and spaces.
+
+## Success!
+
+Now you have an editor that you can use to open any text file, including Python programs.

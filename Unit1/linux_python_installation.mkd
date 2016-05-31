@@ -1,0 +1,62 @@
+# Installing Python on Linux
+
+This page walks through how to install a version of Python on Linux that is compatible with this tutorial.
+
+Any version of Python 3 will work for this tutorial. If you don't have Python installed, we'll install Python version 3.4.1.
+
+## Check your Python installation
+
+<ol>
+<li>Start up a Terminal. You can find the Terminal application at <code>Applications/Accessories/Terminal</code>, or it may already be on your menu bar.
+
+<br />
+This Terminal is another way of navigating your computer and running programs -- just textually instead of graphically. We are going to be running Python and Python scripts from this Terminal.
+</li>
+<li>Test your Python installation at the Terminal prompt by typing
+
+<pre>
+python
+</pre>
+
+and pressing Enter. You should see something like
+<pre>
+Python 3.4.1 (v3.4.1:d047928ae3f6, May 13 2013, 12:45:22) 
+[GCC 4.3.2] on linux2
+Type "help", "copyright", "credits" or "license" for more information.
+>>> 
+</pre>
+
+You just started Python! The <code>>>></code> indicates that you are at a new type of prompt -- a Python prompt. The Terminal prompt lets you navigate your computer and run programs, and the Python prompt lets you write and run Python code interactively.<br />
+</li>
+<li>Exit the Python prompt by typing
+
+<pre>
+exit()
+</pre>
+
+and pressing Enter. This will take you back to the Linux Terminal prompt.</li>
+</ol>
+
+<b>If your Python version started with a 3</b>, you are done with this section.
+
+<b>If your Python version started with a 2</b>, you may have a version of Python 3 installed, just not as the default Python. Type
+
+<pre>
+python3
+</pre>
+
+at a Terminal prompt.
+
+If this starts Python, you have a version of Python 3 installed, just not as the default Python. Please use the command <b>python3</b> instead of <b>python</b> to start Python for the rest of this course.
+
+If you have no version of Python 3 installed, we'll need to install it. Please continue to the instructions in the next section.
+
+## Install Python
+
+Please install Python 3.4 using your package manager, or from source using the source release at https://www.python.org/downloads/release/python-341/.
+
+Please use the command <b>python3</b> instead of <b>python</b> to start Python for the rest of this course.
+
+## Success!
+
+You have tested your Python installation.
