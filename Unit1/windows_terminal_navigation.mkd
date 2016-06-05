@@ -1,6 +1,6 @@
 # Windows command line navigation review
 
-The filesystem on your computer is like a tree made up of folders (also called "directories") and files. The filesystem has a root directory called <tt>/</tt>, and everything on your computer lives in subdirectories of this root directory.
+The filesystem on your computer is like a tree made up of folders (also called "directories") and files. The filesystem has a root directory called <tt>C:\</tt>, and everything on your computer lives in subdirectories of this root directory.
 
 We often navigate the filesystem graphically by clicking on graphical folders. We can do the exact same navigation from the command line.
 
