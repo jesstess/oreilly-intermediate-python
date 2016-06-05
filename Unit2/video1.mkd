@@ -1,10 +1,11 @@
 # Files for Unit 2
 
-Please download these files to a `wordplay` directory. We'll use them
+Please either clone this repository and navigate to the `wordplay` directory, or
+download these files individually to a `wordplay` directory. We'll use them
 throughout Unit 2.
 
-* [scrabble.py](./scrabble.py)
-* [sowpods.txt](./sowpods.txt)
+* [scrabble.py](./wordplay/scrabble.py)
+* [sowpods.txt](./wordplay/sowpods.txt)
 
 ---
 

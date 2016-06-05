@@ -1,12 +1,13 @@
 # Files for Unit 4
 
-Please download these files to a `jeopardy` directory. We'll use them
+Please either clone this repository and navigate to the `jeopardy` directory, or
+download these files individually to a `jeopardy` directory. We'll use them
 throughout Unit 4.
 
-* [jeopardy.dump](./jeopardy.dump)
-* [clues.py](./clues.py)
-* [game_categories.py](./game_categories.py)
-* [category_clues.py](./category_clues.py)
+* [jeopardy.dump](./jeopardy/jeopardy.dump)
+* [clues.py](./jeopardy/clues.py)
+* [game_categories.py](./jeopardy/game_categories.py)
+* [category_clues.py](./jeopardy/category_clues.py)
 
 ---
 
