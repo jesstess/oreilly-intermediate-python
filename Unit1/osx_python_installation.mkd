@@ -4,7 +4,7 @@ This page walks through how to install a version of Python on OSX that is compat
 
 Any version of Python 3 will work for this tutorial. If you don't have Python installed, we'll install Python version 3.4.1.
 
-If you already have Python installed, check the Python version: if the version number starts with a 3 (as opposed to a 2), you can use it for this class and can skip to <a href="#check">checking your Python installation</a>.
+If you already have Python installed, check the Python version: if the version number starts with a 3 (as opposed to a 2), you can use it for this class and can skip to [checking your Python installation](#checking-your-python-installation).
 
 ## Download and install Python
 
@@ -14,7 +14,7 @@ If you already have Python installed, check the Python version: if the version n
 
 Once the download is complete, double-click on the installer to run it and complete the installation.
 
-## <a name="check">Checking your Python installation</a>
+## Checking your Python installation
 
 <ol>
 <li>Start up a Terminal. You can find the Terminal application through Spotlight, or navigate to <code>Applications/Utilities/Terminal</code>.<br />

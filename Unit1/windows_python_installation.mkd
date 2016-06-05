@@ -4,7 +4,7 @@ This page walks through how to install a version of Python on Windows that is co
 
 Any version of Python 3 will work for this tutorial. If you don't have Python installed, we'll install Python version 3.4.1.
 
-If you already have Python installed, check the Python version: if the version number starts with a 3 (as opposed to a 2), you can use it for this class and can skip to <a href="#path">setting your Path</a>.
+If you already have Python installed, check the Python version: if the version number starts with a 3 (as opposed to a 2), you can use it for this class and can skip to [setting your Path](#put-python-on-the-path).
 
 ## Download and install Python
 
@@ -42,7 +42,7 @@ exit()
 and press Enter. This will take you back to the Windows command prompt (the <code>C:\\</code> you saw earlier).</li>
 </ol>
 
-## <a name="path">Put Python on the PATH</a>
+## Put Python on the PATH
 
 You might have noticed that you typed a "full path" to the Python application above when launching Python (<code>python.exe</code> is the application, but we typed <code>\Python34\python.exe</code>). In this step, you will configure your computer so that you can run Python without typing the ''Python34'' directory name.
 
