@@ -10,3 +10,8 @@ throughout Unit 5.
 * [constitution.txt](./constitution.txt)
 * [constitution.py](./constitution.py)
 * [mystery.txt](./mystery.txt)
+
+---
+
+Questions? Please don't hesitate to reach out to the author (me, Jessica!) at:
+<code>jesstess@mit.edu</code>.

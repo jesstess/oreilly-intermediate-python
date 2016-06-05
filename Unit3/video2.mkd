@@ -8,3 +8,8 @@ throughout Unit 2.
 * [sowpods.txt](./sowpods.txt)
 * [sonnets.py](./sonnets.py)
 * [extract_sonnet_words.py](./extract_sonnet_words.py)
+
+---
+
+Questions? Please don't hesitate to reach out to the author (me, Jessica!) at:
+<code>jesstess@mit.edu</code>.

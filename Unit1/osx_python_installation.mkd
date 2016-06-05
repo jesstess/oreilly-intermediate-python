@@ -51,3 +51,8 @@ and press Enter. This will take you back to the OS X terminal prompt.</li>
 ## Success!
 
 You have Python installed and tested.
+
+---
+
+Questions? Please don't hesitate to reach out to the author (me, Jessica!) at:
+<code>jesstess@mit.edu</code>.

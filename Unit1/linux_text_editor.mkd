@@ -29,3 +29,8 @@ That's it! Now, you can hit tab to indent your code, and that indentation will a
 ## Success!
 
 If you prefer a different editor for writing code, that's also great. Just make sure you've configured it to insert spaces instead of tabs.
+
+---
+
+Questions? Please don't hesitate to reach out to the author (me, Jessica!) at:
+<code>jesstess@mit.edu</code>.

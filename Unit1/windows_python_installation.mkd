@@ -86,3 +86,8 @@ A window with the "Variable name" and the "Variable value" should appear. The "V
 ## Success!
 
 You have Python installed, configured, and tested.
+
+---
+
+Questions? Please don't hesitate to reach out to the author (me, Jessica!) at:
+<code>jesstess@mit.edu</code>.

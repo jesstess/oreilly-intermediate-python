@@ -107,3 +107,8 @@ TypeError: 'str' object does not support item assignment
 >>> type(my_list)
 &lt;type 'list'&gt;
 </pre>
+
+---
+
+Questions? Please don't hesitate to reach out to the author (me, Jessica!) at:
+<code>jesstess@mit.edu</code>.

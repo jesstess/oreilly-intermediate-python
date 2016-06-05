@@ -86,3 +86,8 @@ Answer these questions. Experiment at the command line if you need to! If you ar
 ## Success!
 
 You've practiced using <code>ls</code>, <code>pwd</code>, and <code>cd</code> to navigate your computer's filesystem from the command prompt.
+
+---
+
+Questions? Please don't hesitate to reach out to the author (me, Jessica!) at:
+<code>jesstess@mit.edu</code>.

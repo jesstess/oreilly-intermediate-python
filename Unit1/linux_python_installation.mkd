@@ -60,3 +60,8 @@ Please use the command <b>python3</b> instead of <b>python</b> to start Python f
 ## Success!
 
 You have tested your Python installation.
+
+---
+
+Questions? Please don't hesitate to reach out to the author (me, Jessica!) at:
+<code>jesstess@mit.edu</code>.

@@ -5,3 +5,8 @@ throughout Unit 2.
 
 * [scrabble.py](./scrabble.py)
 * [sowpods.txt](./sowpods.txt)
+
+---
+
+Questions? Please don't hesitate to reach out to the author (me, Jessica!) at:
+<code>jesstess@mit.edu</code>.

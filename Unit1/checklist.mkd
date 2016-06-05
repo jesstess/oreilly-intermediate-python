@@ -10,7 +10,9 @@ This video series assumes that you:
   equivalent material. This includes comfort with basic data
   structure, flow control, modules, and reading and writing files.
 
-Please take a moment to	   check your Python 3 installation and review the background material.
+Please take a moment to check your Python 3 installation and review the
+background material. If you'd like a refresher on any of these steps, take a
+look at the background material below:
 
 ## Python installation
 
@@ -29,3 +31,8 @@ Please take a moment to	   check your Python 3 installation and review the backg
 * [Windows](./windows_terminal_navigation.mkd)
 * [OSX](./osx_terminal_navigation.mkd)
 * [Linux](./linux_terminal_navigation.mkd)
+
+---
+
+Questions? Please don't hesitate to reach out to the author (me, Jessica!) at:
+<code>jesstess@mit.edu</code>.

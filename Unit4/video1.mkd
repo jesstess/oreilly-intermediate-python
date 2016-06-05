@@ -7,3 +7,8 @@ throughout Unit 4.
 * [clues.py](./clues.py)
 * [game_categories.py](./game_categories.py)
 * [category_clues.py](./category_clues.py)
+
+---
+
+Questions? Please don't hesitate to reach out to the author (me, Jessica!) at:
+<code>jesstess@mit.edu</code>.

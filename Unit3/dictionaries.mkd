@@ -65,3 +65,8 @@ None
 >>> type(my_dict)
 &lt;type 'dict'&gt;
 </pre>
+
+---
+
+Questions? Please don't hesitate to reach out to the author (me, Jessica!) at:
+<code>jesstess@mit.edu</code>.
