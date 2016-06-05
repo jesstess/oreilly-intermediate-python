@@ -1,6 +1,6 @@
 # Windows command line navigation review
 
-The filesystem on your computer is like a tree made up of folders (also called "directories") and files. The filesystem has a root directory called <tt>C:\</tt>, and everything on your computer lives in subdirectories of this root directory.
+The filesystem on your computer is like a tree made up of folders (also called "directories") and files. The filesystem has a root directory called <tt>C:\ </tt>, and everything on your computer lives in subdirectories of this root directory.
 
 We often navigate the filesystem graphically by clicking on graphical folders. We can do the exact same navigation from the command line.
 
@@ -28,17 +28,17 @@ This lists all the files in your current directory.
 <br />
 
 <pre>cd C:\</pre>
-This will change you into the <code>C:\</code> directory.
+This will change you into the <code>C:\ </code> directory.
 
 <br />
 
 <pre>dir</pre>
-This lists the contents of the <code>C:\</code> directory.
+This lists the contents of the <code>C:\ </code> directory.
 
 <br />
 
 <pre>cd Users</pre>
-This will change you into the <code>Users</code> subdirectory of the <code>C:\</code> directory. 
+This will change you into the <code>Users</code> subdirectory of the <code>C:\ </code> directory.
 
 <br />
 
@@ -48,7 +48,7 @@ You should see the names of all the files and directories in <code>C:\Users</cod
 <br />
 
 <pre>cd ..</pre>
-<code>..</code> means "parent directory", so this command moved you up to the parent directory. You were in <code>C:\Users</code>, so now you are in <code>C:\</code>, the root directory.
+<code>..</code> means "parent directory", so this command moved you up to the parent directory. You were in <code>C:\Users</code>, so now you are in <code>C:\ </code>, the root directory.
 
 <br />
 
