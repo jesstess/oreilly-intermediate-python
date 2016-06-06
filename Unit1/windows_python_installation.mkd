@@ -6,12 +6,13 @@ Any version of Python 3 will work for this tutorial. If you don't have Python in
 
 If you already have Python installed, check the Python version: if the version number starts with a 3 (as opposed to a 2), you can use it for this class and can skip to [setting your Path](#put-python-on-the-path).
 
-## Download and install Python
+## 1. Download and install Python
 
 <ol>
 <li>Click https://www.python.org/ftp/python/3.4.1/python-3.4.1.msi and choose "run" if you have the option to. Otherwise, save it to your Desktop, then minimize windows to see your desktop, and double click on it to start the installer. Follow the installer instructions to completion.</li>
 <li><b>Open a terminal (we will be doing this multiple times, so make a note of how to do this!)</b>:
 <ul>
+<li>On Windows 10: click on the Start menu (the Windows logo in the lower left of the screen), and type <code>cmd</code>. Click on the "Command Prompt" search result.
 <li>On Windows Vista or Windows 7: click on the Start menu (the Windows logo in the lower left of the screen), type <code>cmd</code> into the Search field directly above the Start menu button, and click on "cmd" in the search results above the Search field.</li>
 <li>On Windows XP: click on the Start menu (the Windows logo in the lower left of the screen), click on "Run...", type <code>cmd</code> into the text box, and hit enter.</li>
 <br />
@@ -42,22 +43,44 @@ exit()
 and press Enter. This will take you back to the Windows command prompt (the <code>C:\\</code> you saw earlier).</li>
 </ol>
 
-## Put Python on the PATH
+## 2. Put Python on the PATH
 
 You might have noticed that you typed a "full path" to the Python application above when launching Python (<code>python.exe</code> is the application, but we typed <code>\Python34\python.exe</code>). In this step, you will configure your computer so that you can run Python without typing the ''Python34'' directory name.
 
-### Get to System Properties
+### On Windows 10
+
+#### Get to System Properties
+
+1. Right-click on the Start menu. Click the "System" entry. This will pop up a
+window that says "View basic information about your computer".
+
+2. Click the "Advanced system settings" link in the left panel. This will pop up
+a System Properties window.
+
+3. Click the "Environment Variables..." button. This will pop up an Environment
+Variables window.
+
+4. Select the "PATH" variable and press the "Edit..." button.
+
+5. Add the following entries for the PATH environment variable:
+
+* <code>C:\Python34</code>
+* <code>C:\Python34\Scripts</code>
+
+### On Windows versions earlier than Windows 10
+
+#### Get to System Properties
 
 1. Open up "My Computer"  by clicking on the Start menu or the Windows logo in the lower-left hand corner, and navigate to "My Computer" (for Windows XP) or "Computer" (For Vista and Windows 7).
 2. ''Right-click'' on the empty space in the window, and choose ''Properties''.
 
-#### If you're using XP
+##### If you're using XP
 
 A window labeled "System Properties" will pop up.
 
 1. Click the "Advanced" tab.
 
-#### If you're not using XP
+##### If you're not using XP
 
 A window labeled "View basic information about your computer" will appear.
 
@@ -65,7 +88,7 @@ A window labeled "View basic information about your computer" will appear.
 
 A window with the title "System Properties" will appear.
 
-### Edit the Path
+#### Edit the Path
 
 <ol>
 <li>Within System Properties, make sure you are in the tab labeled "Advanced".</li>
@@ -75,10 +98,15 @@ A window with the title "System Properties" will appear.
 A window with the "Variable name" and the "Variable value" should appear. The "Variable value" will already have some text in it; click in the box to unhighlight it (we don't want to accidentally delete that text).</li>
 <li>In the "Variable value" box, scroll to the end. Add the following text, and hit OK. Make sure to include the semicolon at the start! <pre>;c:\python34\;c:\python34\scripts</pre></li>
 <li>Press "OK" to close out the system properties window.</li>
-<li>Test your change:
+</ol>
+
+## 3. Test your Path change
+
+To test your change:
+
 <ol>
-<li>Open up a <b>new</b> command prompt: you do this the same way you did above when installing python. This needs to be a new command prompt because the changes you just made didn't take affect in prompts that were already open.</li>
-<li>Type <code>python</code> into the command prompt to start Python</li>
+<li>Open up a <b>new</b> command prompt: do this the same way you did above when installing Python. This needs to be a new command prompt because the changes you just made didn't take effect in prompts that were already open.</li>
+<li>Type <code>python</code> into the command prompt and press return to start Python</li>
 <li>Notice that you now get a Python interpreter, indicated by the change to a <code>>>></code> prompt.</li>
 <li>Exit the Python prompt by typing <pre>exit()</pre> and hitting enter. Now you're back at the Windows command prompt (<code>C:\</code>).</li></ol></li>
 </ol>
