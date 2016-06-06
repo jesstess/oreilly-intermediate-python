@@ -1,5 +1,9 @@
 # Files for Unit 4
 
+Please complete the following steps to set up some projects dependencies for this Unit.
+
+## 1. Download the Jeopardy database and Python scripts
+
 Please either clone this repository and navigate to the `jeopardy` directory, or
 download these files individually to a `jeopardy` directory. We'll use them
 throughout Unit 4.
@@ -8,6 +12,126 @@ throughout Unit 4.
 * [clues.py](./jeopardy/clues.py)
 * [game_categories.py](./jeopardy/game_categories.py)
 * [category_clues.py](./jeopardy/category_clues.py)
+
+## 2. Install SQLite
+
+### On Windows
+
+* Download the SQLite command line tools from
+  http://www.sqlite.org/download.html, using the <code>sqlite-tools</code> link
+  in the "Precompiled Binaries For Windows" section. This will download a
+  directory containing several executables, including <code>sqlite3.exe</code>.
+* Copy <code>sqlite3.exe</code> into your <code>jeopardy</code> folder.
+
+### On OSX
+
+* You already have SQLite installed and don't have to do anything!
+
+### On Linux
+
+* Install the <code>sqlite3</code> package through your package manager.
+
+## 3. Create a SQLite database from the database dump
+
+The <code>jeopardy</code> folder contains a file called
+<code>jeopardy.dump</code>. This is a SQL database dump. We need to turn this
+database dump into a SQLite database.
+
+Now that you have SQLite installed, create a database from
+<code>jeopardy.dump</code> by executing the following command at the terminal:
+
+<pre>sqlite3 jeopardy.db < jeopardy.dump</pre>
+
+This creates a <code>sqlite</code> database called <code>jeopardy.db</code>.
+
+## 4. Test your setup
+
+At a terminal, start <code>sqlite3</code> using the <code>jeopardy.db</code>
+database by running:
+
+<pre>sqlite3 jeopardy.db</pre>
+
+That should start a <code>sqlite</code> prompt that looks like this:
+
+<pre>
+SQLite version 3.6.12
+Enter ".help" for instructions
+Enter SQL statements terminated with a ";"
+sqlite></pre>
+
+At the <code>sqlite</code> prompt, type <code>.tables</code> and press
+enter. That should display a list of the tables in this database:
+
+<pre>sqlite> .tables
+category  clue
+sqlite></pre>
+
+Quit <code>sqlite</code> by executing:
+
+<pre>sqlite> .quit</pre>
+
+## 5. Practice making SQL queries
+
+### Look at the layout of the Jeopardy database
+
+Start sqlite with:
+
+<pre>sqlite3 jeopardy.db</pre>
+
+Then look at the tables in your database by running the following commands at
+the <code>sqlite</code> prompt:
+
+* <tt>.table</tt>, which will list the tables in the database
+* <tt>.schema category</tt>, which will show the organization of the
+  <tt>category</tt> table, including the fields and the data types they store.
+
+It should look like this:
+
+<pre>sqlite> .schema category
+CREATE TABLE "category" (
+    id INTEGER PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    game INTEGER NOT NULL,
+    boardPosition INTEGER
+    );</pre>
+
+This tells us that the <code>category</code> table has 4 fields:
+<code>id</code>, <code>name</code>, <code>game</code>, and
+<code>boardPosition</code>.
+
+### Read more about SQL
+
+If you don't have prior experience with SQL, please read these short documents
+for an introduction:
+
+* [What is SQL?](http://www.w3schools.com/sql/sql_intro.asp)
+* [What is a database schema?](http://wiki.answers.com/Q/What_is_a_database_schema)
+
+Then, check your understanding:
+
+* What tables are in the database?
+* What is a schema?
+* What fields are in the <code>category</code> table?
+* What fields are in the <code>clue</code> table?
+
+### Query the database with SELECT
+
+Try running the following queries from the <code>sqlite</code> prompt:
+
+* <tt>SELECT * FROM category;</tt>
+* <tt>SELECT NAME FROM category;</tt>
+* <tt>SELECT * FROM clue;</tt>
+* <tt>SELECT text, answer, value FROM clue;</tt>
+* <tt>SELECT text, answer, value FROM clue LIMIT 10;</tt>
+
+Explore the <code>category</code> and <code>clue</code> tables with your own
+SELECT queries.
+
+Then, check your understanding:
+
+* What does <code>*</code> mean in the above queries?
+* What does the <code>LIMIT</code> SQL keyword do?
+* Does case matter when making SQL queries?
 
 ---
 
