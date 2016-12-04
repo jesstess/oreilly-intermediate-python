@@ -92,6 +92,7 @@ CREATE TABLE "category" (
     id INTEGER PRIMARY KEY,
     name VARCHAR(255) NOT NULL,
     game INTEGER NOT NULL,
+    round INTEGER NOT NULL,
     boardPosition INTEGER
     );</pre>
 
