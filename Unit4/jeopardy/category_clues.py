@@ -17,8 +17,8 @@ results = cursor.fetchall()
 for clue in results:
     text, answer, value = clue
     print("[$%s]" % (value,))
-    print("A: %s" % (text,))
-    print("Q: What is '%s'" % (answer,))
+    print("Question: %s" % (text,))
+    print("Answer: What is '%s'?" % (answer,))
     print("")
 
 connection.close()
