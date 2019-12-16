@@ -5,8 +5,8 @@ dates = []
 populations = []
 for point in data:
     date, population = point.split()
-    dates.append(date)
-    populations.append(population)
+    dates.append(int(date))
+    populations.append(int(population))
 
 pyplot.plot(dates, populations, "o-")
 pyplot.ylabel("World population in millions")
